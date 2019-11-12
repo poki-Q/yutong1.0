@@ -1,0 +1,41 @@
+{
+  "pages": [
+    "pages/index/index",
+    "pages/detail/detail",
+    
+    "pages/dynamic/dynamic",
+    "pages/me/me",
+    "pages/photography/photography",
+    "pages/design/design",
+    "pages/vb/vb"
+    
+  ],
+  "window": {
+    "backgroundColor": "#fff",
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#fff",
+    "navigationBarTitleText": "宇瞳",
+    "navigationBarTextStyle": "black"
+  },
+  "tabBar": {
+    "color": "#A9A9A9",
+    "selectedColor":"#000",
+    "list": [{
+      "pagePath": "pages/index/index",
+      "text": "首页",
+      "iconPath": "images/tabBar_icon@index.jpg",
+      "selectedIconPath": "images/tabBar_icon@index_selected.jpg"
+    },{
+      "pagePath": "pages/dynamic/dynamic",
+      "text": "动态",
+      "iconPath": "images/tabBar_icon@dynamic.jpg",
+      "selectedIconPath": "images/tabBar_icon@dynamic_selected.jpg"
+    },{
+      "pagePath": "pages/me/me",
+      "text": "关于我们",
+      "iconPath": "images/tabBar_icon@me.jpg",
+      "selectedIconPath": "images/tabBar_icon@me_selected.jpg"
+    }]
+  },
+  "sitemapLocation": "sitemap.json"
+}

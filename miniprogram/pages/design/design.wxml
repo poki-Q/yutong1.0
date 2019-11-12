@@ -1,0 +1,33 @@
+<view class="layout">
+  <view class="title">
+
+    <view class="circle">
+      <text class="three"></text>
+      <text class="two"></text>
+      <text class="one"></text>
+    </view>
+    
+    <view class="font">广告设计</view>
+
+    <view class="circle">
+      <text class="one"></text>
+      <text class="two"></text>
+      <text class="three"></text>
+    </view>
+  
+  </view>
+  <view class="content">
+    <block wx:for="{{designs}}">
+      <view class="name">
+        <view class="left">{{item.name}}</view>
+        <view class="right">click photo <text class="symbol">></text></view>
+      </view>
+      <view class="cover_img">
+        <image mode="widthFix" id="{{item.id}}" bindtap="toDetail" src="cloud://yutong.7975-yutong-1300477496/designs/{{item.banner_src}}"> </image>
+      </view>
+    </block>
+  </view>
+
+  <view class="bottom">到底啦~~</view>
+
+</view>

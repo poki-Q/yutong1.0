@@ -1,0 +1,52 @@
+
+<!--界面 -->
+<view class="content">
+  <view class="title">宇瞳作品集-{{type.name}}</view>
+  <!-- banner -->
+  <view class="banner">
+    <image src="cloud://yutong.7975-yutong-1300477496/{{types}}/{{type.banner_src}}"
+    mode="widthFix"></image>
+
+    <block wx:if="{{flag === 1}}" >
+      <view class="font">
+        <view>·</view><view> 摄</view><view>影</view><view>·</view>
+      </view>
+    </block>
+
+  
+
+ 
+
+      <block wx:if="{{flag === 2}}">
+      <view  class="font">
+        <view>·</view><view> 设</view><view>计</view><view>·</view>
+      </view>
+    </block>
+
+       <block wx:else>
+      <view  class="font">
+        <view>·</view><view> 摄</view><view>像</view><view>·</view>
+      </view>
+    </block>
+  </view>
+  <!-- 句子 -->
+  <view class="sentence">
+    <view>{{type.sentence}}</view>
+    <view> </view>
+  </view>
+  <view class="imgs">
+    <block  wx:for="{{type.srcArray}}">
+      <view>
+        <video wx:if="{{types=='videos'||types=='bands'}}" style="width:100%;" poster="cloud://yutong.7975-yutong-1300477496/videos/{{type.banner_src}}" src="cloud://yutong.7975-yutong-1300477496/videos/{{item}}" controls="{{true}}"></video>
+        <image wx:else mode="widthFix" src="cloud://yutong.7975-yutong-1300477496/{{types}}/{{item}}"></image>
+
+      </view>
+    </block>
+  </view>
+
+  <!-- ending -->
+  <view class="ending">
+    到底啦~~
+  </view>
+
+</view>

@@ -1,0 +1,83 @@
+.layout{
+  width: 100%;
+}
+/* title */
+.title{
+  width: 94%;
+  height: 35px;
+  line-height: 35px;
+  text-align: center;
+  font-size: 14px;
+  color: black;
+}
+.banner{
+  width: 94%;
+  margin: 0 auto;
+
+}
+.banner swiper{  /* 如果swiper-item不设置下面两个角不会被切*/
+  width: 100%;
+  border-radius: 15px;
+}
+
+.banner swiper-item{  /* 如果swiper-item不设置下面两个角不会被切*/
+  width: 100%;
+  border-radius: 15px;
+}
+
+.banner image{  /* 如果swiper-item不设置下面两个角不会被切*/
+  width: 100%;
+  border-radius: 15px;
+}
+/* .banner {
+  width: 100%;
+  border-radius: 15px;
+} */
+
+
+/* items */
+.items{
+  width: 94%;
+  margin: 0 auto;
+}
+  
+.item{
+  width: 100%;
+  margin-top: 20px;
+}
+/* 分类名称-线 */
+.line-clname{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  text-align: center;
+  border: none;
+}
+
+.line-one{
+  width: 10%;
+  height: 1px;
+  background-color: black;
+  border: 0px;
+}
+.line-two{
+  width: 60%;
+  height: 1px;
+  background-color: black;
+}
+
+
+.item-title{
+  font-size: 18px;
+  font-family: "方正清刻本悦宋简体";
+  width: 30%;
+  
+}
+/* 图片 */
+.img-wraper{
+  margin-top: 3px;
+}
+
+.img-wraper image{
+  border-radius: 5px;
+}

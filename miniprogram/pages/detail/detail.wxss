@@ -1,0 +1,71 @@
+/* pages/detail/detail.wxss */
+.content{
+  width: 100%;
+}
+/* title */
+.title{
+  background-color: black;
+  color: white;
+  padding: 3px 8px;
+}
+/* banner */
+.banner{
+  width: 100%;
+  height: auto;
+  position: relative;
+}
+.banner image{
+  width: 100%;
+
+}
+.banner .font{
+  background-color: black;
+  color: white;
+  position: absolute;
+  bottom: -40px;
+  left: 40px;
+  text-align: center;
+  padding: 0px 2.5px;
+}
+.banner .font view{
+  text-align: center;
+  width: 25px;
+  height: 25px;
+  line-height: 25px;
+}
+/* 诗句 */
+.sentence{
+  margin:0 auto;
+  margin-top: 70px;
+  margin-bottom: 70px;
+  width: 80%;
+  text-indent: 2em;
+  line-height: 30px;
+}
+
+
+
+.imgs{
+  width: 97%;
+  margin: 0 auto;
+}
+.imgs image{
+  width: 100%;
+  margin-top: 3px;
+}
+
+/* ending */
+.ending{
+  margin: 0 auto;
+  width: 82%;
+  height: 10px;
+  line-height: 10px;
+  background-color: black;
+  text-align: center;
+  color: white;
+  font-size: 7px;
+  border-radius: 10px;
+  box-shadow: gray 0px 0px  4px 4px;
+  margin-top: 5px;
+  margin-bottom: 8px;
+}

@@ -1,0 +1,23 @@
+<view class="layout">
+
+    <!-- banner -->
+  <view class="banner">
+    <view class="title">
+      <image src="cloud://yutong.7975-yutong-1300477496/logo.png"></image>
+    </view>
+    <view>记录青春</view>
+    <view>记录美好</view>
+    <view>记录重要的时刻</view>
+  </view>
+  <block wx:for="{{alpha}}" >
+    <view style="background:rgba(255,255,255,{{item}});width:100%;height:3px;"></view>
+  </block>
+
+  <!-- items -->
+  <view class="items">
+    <view class="item" bindtap="toVB" data-type="videos">视频</view>
+    <view class="item" bindtap="toPhotography">拍照写真</view>
+    <!-- <view class="item" bindtap="toDesign">广告设计</view> -->
+    <view class="item" bindtap="toVB" data-type="bands">乐队商演</view>
+  </view>
+</view>

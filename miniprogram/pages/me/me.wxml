@@ -1,0 +1,24 @@
+<view class="content">
+  <!-- 背景图 -->
+  <image class="bg" src="{{bgsrc}}"
+  mode="widthFix">
+  </image>
+  <!-- 外层 -->
+  <view class="cv">
+    <view class="logo">
+      <image></image>
+    </view>
+    <view class="advertising">
+      <!-- <view class="logo">
+        <image src="{{cloud}}logo.png" style="width:100px;" mode="widthFix"></image>
+      </view> -->
+      <view>
+        <view>扫这个二维码加我(ˆ▽ˆ)☟</view>
+        <image src="{{cloud}}w_QRcode.png" mode="widthFix" style="width:135px;"></image>
+      </view>
+      <view class="gzh">关注公众号：宇瞳影像</view>
+      <view class="adver_sentence">宇瞳影像接拍婚礼视频，网店产品图，网店模特服装图。 </view>
+      <view>还有欢迎小姐姐们约拍哦 (>‿◠)</view>
+    </view>
+  </view>
+</view>
